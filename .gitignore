@@ -11,4 +11,6 @@
 *.out
 
 # Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
+bin/
 .glide/
+manifest-tool-darwin-amd64

@@ -37,7 +37,8 @@ func proxy(w http.ResponseWriter, r *http.Request, ps httprouter.Params) {
 	}
 
 	w.WriteHeader(200)
-	defer r.Body.Close()
+	// defer r.Body.Close()
+	r.Body.Close()
 }
 
 func usage() {

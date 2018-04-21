@@ -1,0 +1,18 @@
+image: aaguilar/gnats-proxy
+manifests:
+  -
+    image: aaguilar/gnats-proxy:darwin-amd64
+    platform:
+      architecture: amd64
+      os: darwin
+  -
+    image: aaguilar/gnats-proxy:linux-amd64
+    platform:
+      architecture: amd64
+      os: linux
+  -
+    image: aaguilar/gnats-proxy:linux-arm64
+    platform:
+      architecture: arm64
+      variant: v8
+      os: linux
